@@ -1,0 +1,214 @@
+/******************************tagselectors*****************************/
+p{
+  line-height: 2;
+}
+h1{
+  font-size: 5.625rem;
+  margin: 50px auto 0 auto;
+  font-family: 'Sacramento', cursive;
+  color: #66BFBF;
+
+  }
+
+  h2{
+    font-family: 'Source Sans Pro', sans-serif;
+    font-size: 2.5rem;
+    color:#b7472a;
+
+    line-height:2;
+    padding-bottom: 5px;
+  }
+  h3{
+    font-family: 'Source Sans Pro', sans-serif;
+    color:  #5b2e35;
+  }
+body{
+  margin: 0;
+  text-align: center;
+  color: #40514E;
+  background-color:#ffd700;
+}
+
+hr{
+  border-style: none;
+  border-color: white;
+}
+
+span{
+  text-decoration: underline;
+}
+a{
+  color: #11999E;
+  font-family: 'Source Sans Pro', sans-serif;
+  text-decoration: none;
+}
+a:hover{
+  color:#EAF6F6;
+}
+/******************************classselectors*****************************/
+.imggg{
+  border-radius: 200px;
+  position:relative;
+  left: 320px;
+}
+.arijit{
+  border-radius: 100px;
+  width:20%;
+  position: relative;
+  right: 400px;
+  bottom: 20px;
+
+}
+.shreya{
+  border-radius: 200px;
+  position: relative;
+  bottom: 50px;
+  left: 100px;
+  width:27%;
+}
+.hori{
+  border-style: dotted none none;
+  border-width: 8px;
+  width:7%;
+  border-color: blue;
+  margin: 100px auto;
+  }
+
+.mee{
+  text-align:center;
+  font-size: 1.3rem;
+  width: 40%;
+  margin: 0 auto;
+}
+.h2{
+  font-weight: normal;
+}
+.skill-row{
+ display:block;
+ margin:100px auto;
+ width: 50%;
+ text-align: left;
+
+  }
+
+.cric{
+    border-radius: 200px;
+    width: 25%;
+    float: left;
+    margin-right: 30px;
+}
+.namec{
+  position: relative;
+  top: 50px;
+  color:  #5b2e35;
+  font-family: 'Playball', cursive;
+  text-decoration: underline;
+
+}
+.nameB{
+  position: relative;
+  top: 80px;
+  left:330px;
+  font-size: 20px;
+  color:  #5b2e35;
+  font-family: 'Playball', cursive;
+  text-decoration: underline;
+}
+.batmin{
+ border-radius: 200px;
+ width: 25%;
+ float: right;
+ margin-right: 30px;
+}
+
+.cricdef{
+  clear: left;
+  font-size: 1.1rem;
+}
+.batdef{
+  clear: right;
+    font-size: 1.1rem;
+}
+
+.bottom-cloud{
+position: absolute;
+}
+.top-cloud{
+  position: relative;
+  left: 230px;
+}
+.topcontainer{
+  padding-top: 100px;
+  background-color: #faf4f4;
+  padding-right: 30px;
+    }
+.middle-container{
+  margin: 100px auto;
+}
+.contacttt{
+  width: 40%;
+  margin: 20px auto 40px;
+}
+.bottom-container{
+  background-color: #66BFBF;
+  padding: 50px 0 20px;
+  }
+.footer-link1{
+  margin: 20px ;
+  font-size: 1.5rem;
+}
+.footer-link2{
+  font-size: 1.5rem;
+}
+
+.copyright{
+  color: #EAF6F6;
+  font-size: 1rem;
+  padding: 20px 0;
+}
+
+
+
+
+.btn{
+background:-webkit-gradient( linear, left top, left bottom, color-stop(0.05, #fe1a00), color-stop(1, #ce0100) );
+background:-moz-linear-gradient( center top, #fe1a00 5%, #ce0100 100% );
+filter:progid:DXImageTransform.Microsoft.gradient(startColorstr='#fe1a00', endColorstr='#ce0100');
+background-color:#fe1a00;
+-webkit-border-top-left-radius:10px;
+-moz-border-radius-topleft:10px;
+border-top-left-radius:10px;
+-webkit-border-top-right-radius:10px;
+-moz-border-radius-topright:10px;
+border-top-right-radius:10px;
+-webkit-border-bottom-right-radius:10px;
+-moz-border-radius-bottomright:10px;
+border-bottom-right-radius:10px;
+-webkit-border-bottom-left-radius:0px;
+-moz-border-radius-bottomleft:0px;
+border-bottom-left-radius:0px;
+text-indent:0;
+border:2px solid #d83526;
+display:inline-block;
+color:#ffffff;
+font-family:'Source Sans Pro', sans-serif;
+font-size:17px;
+font-weight:bold;
+font-style:normal;
+height:51px;
+line-height:51px;
+width:133px;
+text-decoration:none;
+text-align:center;
+text-shadow:0px 0px 0px #b23e35;
+}
+.btn:hover {
+background:-webkit-gradient( linear, left top, left bottom, color-stop(0.05, #ce0100), color-stop(1, #fe1a00) );
+background:-moz-linear-gradient( center top, #ce0100 5%, #fe1a00 100% );
+filter:progid:DXImageTransform.Microsoft.gradient(startColorstr='#ce0100', endColorstr='#fe1a00');
+background-color:#ce0100;
+}
+.btn:active {
+position:relative;
+top:1px;
+}
